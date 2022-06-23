@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Site Netfluxo</title>
+        <style>
+            #conteudo{
+                height: 600px 100%;
+                width: 1200px, 100%;
+                background-color: black;
+                background-size: 100%;
+
+            }
+            body{
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                color: rgb(247, 243, 243);
+                background-color: black;
+                
+            }
+            .box{
+                height: 600px;
+                width: 640px ;
+                display:flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+            }
+            .imagem{
+                background-image: url("./Assets/FluxoEMPI.jpg");
+                height: 400px;
+                width: 640px;
+                display:flex;
+                justify-content: flex-start;
+                flex-direction: column-reverse;
+                align-items: flex-start;
+
+            }
+            .botao{
+                height: 25px;
+                width: 30px;
+                box-sizing: border-box;
+                border-radius: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .play{
+                font-size: medium;
+                height: 30px;
+                width: 110px;
+                border-radius: 3px;
+                color: black;
+                background-color: white;
+                justify-content: center;
+                align-items: center;
+            }
+            .bottom{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                margin-bottom: 20px;
+                margin-left: 20px;
+            
+            }
+            .informacoes{
+                background-color: rgb(34, 33, 33);
+                height: 200px;
+                width: 640px;
+                flex-direction: row;
+            }
+           
+            .info{
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: row;
+                align-items: flex-start;
+                margin: 30px;
+                margin-bottom: 40px;
+            }
+            .left{
+                height: 250px;
+                width: 380px;
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                flex-direction: column;
+            }
+            .right{
+                height: 250px;
+                width: 260px;
+                display: flex;
+                flex-direction: column;
+                margin-top: 80px;
+            }
+            .parte1{
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row;
+                align-items: center;
+                margin-top: 40px;
+                font-size: xx-small;
+            }
+            .parte2{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+            }
+            h1{
+                font-size: small;
+            }
+            h2{
+                color: rgb(7, 144, 7);
+                
+            }
+        
+          
+        </style>
+    </head>
+    <body>
+        <div id = "conteudo">
+            <div class="box imagem">
+                <div class="bottom">
+                    <button class="play">
+                        <img src="./Assets/play.png" height="20x" width="40px"><img/>
+                        Entrar
+                    </button> 
+                    <button class="botao">
+                        <img src="./Assets/Mais.png" height="120%" width="200%"><img/>
+                    </button>
+                    <button class="botao">
+                        <img src=" ./Assets/Curti.png" height="120%" width="200%"><img/>
+                    </button>
+                </div>    
+                <img src="./Assets/LogoFluxo.png" height="200px" width="200px"><img/>
+    
+               
+                <button class="botao esquerda">
+                    <img src="./Assets/X.png" height="120%" width="200%"><img/>
+               </button>
+               <button class="botao esquerda">
+                    <img src="./Assets/Mute.png" height="120%" width="200%"><img/>
+               </button>
+            </div>
+             
+
+            <div class="box informacoes">
+                <div class="info left">
+                    <div class="parte1">
+                        <h2>100% relevante</h2>
+                        <h3> 1993 </h3>
+                        <img src="./Assets/livre.png" height="15px" width="15px"><img/>
+                        <h3>  29 anos</h3>
+                    </div>    
+                    <div class="parte2">
+                        <img src="./Assets/Top1.png" height="20px" width="20px"><img/>
+                        <h1>Top 1 empresas júnior do Brasil</h1>
+                    </div>
+                    <p>O pame tem sido um processo desafior, porém igualmente enriquecedor, tenho aprendido muitas coisas novas, e saido da minha zona de conforto.</p>
+                </div>
+                <div class="info right">
+                    <p>Elenco: Antônio Falcão, Victor Diniz, Karolinne Oliveira, e mais</p> 
+                    <p>Gêneros: Engenharia, Química Industrial, Arquitetura e Urbanismo, e Comunição Visual</p>
+            
+                </div>
+
+            </div>
+        </div>
+    </body>
+</html>
